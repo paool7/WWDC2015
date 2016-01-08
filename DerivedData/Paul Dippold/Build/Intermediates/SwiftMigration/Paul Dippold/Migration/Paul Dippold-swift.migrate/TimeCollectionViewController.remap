@@ -1,0 +1,8 @@
+[
+ {
+  "file": "/Users/Paul/Developer/iPhone apps/Personal/Paul Dippold-2015/Paul Dippold/TimeCollectionViewController.swift",
+  "offset": 2083,
+  "remove": 940,
+  "text": "let blurView2: UIVisualEffectView = UIVisualEffectView(effect: blurEffect2)\n        \n        blurView2.frame = CGRectMake(0, 0, self.view.frame.width, 60)\n        self.view.addSubview(blurView2)\n        \n        let vibrancyView2: UIVisualEffectView = UIVisualEffectView(effect: UIVibrancyEffect(forBlurEffect: blurEffect2))\n        vibrancyView2.frame = blurView2.bounds\n        blurView2.contentView.addSubview(vibrancyView2)\n        \n        \n        let label: UILabel = UILabel()\n        label.frame = CGRectMake(0, 0, self.view.frame.width, 60)\n        label.text = \"Timeline\"\n        label.font = UIFont(name: \"HelveticaNeue\", size: 32)\n        label.textAlignment = .Center\n        label.textColor = UIColor.whiteColor()\n        vibrancyView2.contentView.addSubview(label)\n        \n        let button   = UIButton.buttonWithType(UIButtonType.Custom) as UIButton\n        button.frame = CGRectMake(0, 10, 40, 40)\n        \n        let",
+ }
+]
