@@ -149,6 +149,7 @@ class AppCollection: UIViewController, UICollectionViewDataSource, UICollectionV
                 url = "https://itunes.apple.com/us/app/cell-laws/id707987011?mt=8"
                 openb.enabled = true
             } else if indexPath.row == 1 {
+                
                 appimage.image = UIImage(named:"crowd.jpg")
                 desctext.text = "CrowdFindr enables you to easily send your location to a friend so they can find you in a crowd, at a conference, theater, or music venue."
                 url = "https://itunes.apple.com/us/app/crowdfindr/id675221925?mt=8"
